@@ -149,8 +149,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointPrefab: {fileID: 8191155233619250654, guid: d5f758153ae24d1489b782721d977fb5, type: 3}
-  resolution: 50
-  function: 0
+  resolution: 200
+  function: 3
+  functionDuration: 1
+  transitionDuration: 1
+  transitionMode: 1
 --- !u!4 &8576991
 Transform:
   m_ObjectHideFlags: 0
@@ -440,6 +443,7 @@ GameObject:
   - component: {fileID: 1815296677}
   - component: {fileID: 1815296679}
   - component: {fileID: 1815296678}
+  - component: {fileID: 1815296680}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -505,6 +509,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815296676}
   m_CullTransparentMesh: 1
+--- !u!114 &1815296680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815296676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f10bc9194549268272b6c103c068fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  display: {fileID: 1950639806}
+  sampleDuration: 1
+  displayMode: 0
 --- !u!1 &1950639804
 GameObject:
   m_ObjectHideFlags: 0
