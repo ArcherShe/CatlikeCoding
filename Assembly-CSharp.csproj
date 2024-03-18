@@ -49,12 +49,15 @@
     <Compile Include="Assets\Basics\Scripts\FrameRateCounter.cs" />
     <Compile Include="Assets\Basics\Scripts\FunctionLibrary.cs" />
     <Compile Include="Assets\Basics\Scripts\Graph.cs" />
+    <Compile Include="Assets\Basics\Scripts\GPUGraph.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Basics\Shaders\PointSurfaceGPU.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Basics\Scripts\FunctionLibrary.compute" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Basics\Shaders\PointSurface.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
