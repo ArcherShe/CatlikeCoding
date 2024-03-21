@@ -46,9 +46,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Basics\Scripts\Fractal3.cs" />
     <Compile Include="Assets\Basics\Scripts\FrameRateCounter.cs" />
     <Compile Include="Assets\Basics\Scripts\FunctionLibrary.cs" />
+    <Compile Include="Assets\Basics\Scripts\Fractal1.cs" />
     <Compile Include="Assets\Basics\Scripts\Graph.cs" />
+    <Compile Include="Assets\Basics\Scripts\Fractal2.cs" />
     <Compile Include="Assets\Basics\Scripts\GPUGraph.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -71,6 +74,8 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Basics\Shaders\PointGPU.hlsl" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Basics\Shaders\FractalGPU.hlsl" />
+    <None Include="Assets\Basics\Shaders\FractalSurfaceGPU.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
