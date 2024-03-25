@@ -52,6 +52,7 @@
     <Compile Include="Assets\Basics\Scripts\Fractal1.cs" />
     <Compile Include="Assets\Basics\Scripts\Graph.cs" />
     <Compile Include="Assets\Basics\Scripts\Fractal2.cs" />
+    <Compile Include="Assets\Basics\Scripts\FractalUnity.cs" />
     <Compile Include="Assets\Basics\Scripts\GPUGraph.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
