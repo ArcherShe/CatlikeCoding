@@ -46,14 +46,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GuardAI\TaskPatrol.cs" />
+    <Compile Include="Assets\GuardAI\TaskGoToTarget.cs" />
+    <Compile Include="Assets\BehaviorTree\Node.cs" />
+    <Compile Include="Assets\GuardAI\GuardBT.cs" />
+    <Compile Include="Assets\BehaviorTree\Sequence.cs" />
     <Compile Include="Assets\Basics\Scripts\Fractal3.cs" />
     <Compile Include="Assets\Basics\Scripts\FrameRateCounter.cs" />
     <Compile Include="Assets\Basics\Scripts\FunctionLibrary.cs" />
     <Compile Include="Assets\Basics\Scripts\Fractal1.cs" />
     <Compile Include="Assets\Basics\Scripts\Graph.cs" />
+    <Compile Include="Assets\BehaviorTree\Tree.cs" />
+    <Compile Include="Assets\BehaviorTree\Selector.cs" />
+    <Compile Include="Assets\GuardAI\CheckEnemyInFOVRange.cs" />
     <Compile Include="Assets\Basics\Scripts\Fractal2.cs" />
     <Compile Include="Assets\Basics\Scripts\FractalUnity.cs" />
     <Compile Include="Assets\Basics\Scripts\GPUGraph.cs" />
+    <Compile Include="Assets\GuardAI\CheckEnemyInAttackRange.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
