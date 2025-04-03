@@ -4,7 +4,7 @@ namespace BehaviorTree
 {
     public class CheckEnemyInAttackRange : Node
     {
-        private static int emenyLayerMask = 1 << 6;
+        // private static int emenyLayerMask = 1 << 6;
 
         private Transform transform;
         public Animator animator;
