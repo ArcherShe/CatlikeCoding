@@ -8,7 +8,7 @@ public class JenkinsBuild
     [MenuItem("Jenkins/Build for Jenkins")]
     public static void JenkinsTestBuild()
     {
-        var fileName = "Build.txt";
+        var fileName = "Build_dev.txt";
         var filePath = Path.Combine(Application.dataPath, fileName);
         if (File.Exists(filePath)) File.Delete(filePath);
         
