@@ -18,7 +18,7 @@ public class JenkinsBuild
         var file = File.OpenWrite(filePath);
         using var writer = new StreamWriter(file);
         writer.WriteLine("Build started at: " + System.DateTime.Now);
-        writer.WriteLine("Build target: Android");
+        writer.WriteLine($"Build target: {buildTarget}");
         writer.WriteLine("Build path: " + Application.persistentDataPath);
         writer.WriteLine("Unity version: " + Application.unityVersion);
         writer.WriteLine("Platform: " + Application.platform);
