@@ -13,7 +13,7 @@ public class JenkinsBuild
         if (File.Exists(filePath)) File.Delete(filePath);
         
         string[] args = Environment.GetCommandLineArgs();
-        string buildTarget = GetArgument(args, "-buildTarget", "StandaloneOSX");
+        string buildTarget = GetArgument(args, "-platform", "StandaloneOSX");
 
         var file = File.OpenWrite(filePath);
         using var writer = new StreamWriter(file);
